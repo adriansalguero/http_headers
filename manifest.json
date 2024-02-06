@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Header Viewer",
+  "version": "1.0",
+  "description": "View request and response headers",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "48": "icon.png"
+    },
+    "default_title": "Header Viewer",
+    "default_popup": "popup.html"
+  },
+  "sidebar_action": {
+    "default_icon": {
+      "48": "icon.png"
+    },
+    "default_title": "Header Viewer",
+    "default_panel": "popup.html"
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self';",
+  "icons": {
+    "48": "icon.png"
+  }
+}
